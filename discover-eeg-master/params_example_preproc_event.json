@@ -1,0 +1,43 @@
+{
+	"NCores": 2,
+    
+    "EEGLabPath": "/rechenmagd4/toolboxes_and_functions/eeglab",
+	"FieldtripPath": "/rechenmagd4/toolboxes_and_functions/fieldtrip",
+	"BrainConnectivityToolboxPath" : "/rechenmagd4/toolboxes_and_functions/2019_03_03_BCT",
+
+	"StudyName": "test_evoked",
+	"RawDataPath": "/your/data/path/here",
+	"PreprocessedDataPath": [],
+	"Session" : [],
+	"Run" : [],
+	"Task" : [],
+	"BidsChanloc" : "off",
+	"NoseDir": [],
+	"RefCoord" : {
+		"X": [],
+		"Y": [],
+		"Z": []},
+
+	"DownsamplingRate" : [],
+	"FlatLineCriterion" : 5,
+	"ChannelCriterion" : 0.8,
+	"LineNoiseCriterion" : 4,
+	"HighPass" : [0.25, 0.75],
+	"AddRefChannel" : "off",
+    "NICARepetitions": 10,
+	"ICLabel" : [[null, null], [0.8, 1], [0.8, 1], [null, null],[null, null],[null, null],[null, null]],
+	"BurstCriterion" : 20,
+	"WindowCriterion" : 0.25,
+	"WindowCriterionTolerances" : "[-Inf,7]",
+    "RejectBadTimeSegments" : "off",
+	"EpochLength" : [],
+	"EpochOverlap" : [],
+
+    "PreprocEventData": true,
+    "EventMarker" : "S  1",
+    "EventBounds": [-2, 0],
+
+	"BrainFeatExtr": false
+
+}
+
