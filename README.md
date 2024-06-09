@@ -1,6 +1,5 @@
 ## Directory and File Descriptions
 
-- **`.git/`**: This hidden directory is used by Git for version control. It contains all the necessary metadata for the repository, including configuration files, branches, and commit history.
 
 - **`Classification_validation/`**: This directory contains the code and results for classification tasks. It includes scripts for training classification models, evaluating their performance, and storing the output of the classification processes.
 
